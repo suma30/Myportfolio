@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-size:20px;
-
+    box-sizing: border-box;
 }
 html{
     scroll-behavior:smooth;
@@ -14,7 +14,7 @@ html{
     position: fixed;top:0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     border-bottom: 1px solid black;
 }
@@ -28,13 +28,13 @@ html{
 }
 
 #leftnav {
-    padding-left: 10px;
+   
     font-weight: bold;
     font-size: larger;
 }
 
 #rightnav {
-    margin: 0px 15px;
+    
     font-size: large;}
 
 #rightnav ul{
@@ -208,6 +208,6 @@ text-align: center;
     font-size: small;
   }
   #intro,#about,#experience,#skills,#contactme{
-    height: 50vh;
+    height: 40vh;
   }
 }
