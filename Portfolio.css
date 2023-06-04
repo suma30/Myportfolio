@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-size:20px;
+    font-family:cursive;
     box-sizing: border-box;
 }
 html{
@@ -58,13 +58,6 @@ html{
     text-align: center;
     border-radius: 1px;
     
-}
-
-#rightnav ul li a:hover {
-    border: 1px solid wheat;
-    background-color: wheat;
-    border-radius: 3.5px;
-   
 }
 
 #intro,#about,#experience,#contactme{
