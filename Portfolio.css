@@ -165,9 +165,7 @@ html{
     list-style-position: inside;
 }
 
-
-
-#html,#css,#vscode,#c{width: 50px;
+#html,#css,#vscode,#c,#js{width: 50px;
 text-align: center;
 }
 
