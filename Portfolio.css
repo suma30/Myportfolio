@@ -1,18 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-   font-family: Comic Sans MS;
-   font-size:18px;
+    font-family: Comic Sans MS;
+    font-size: 18px;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior:smooth;
+
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar {
-    background-color:hotpink;
+    background-color: hotpink;
     width: 100%;
-    position: fixed;top:0px;
+    position: fixed;
+    top: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -20,7 +22,7 @@ html{
     border-bottom: 1px solid black;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,16 +31,17 @@ html{
 }
 
 #leftnav {
-   
+
     font-weight: bold;
     font-size: larger;
 }
 
 #rightnav {
-    
-    font-size: large;}
 
-#rightnav ul{
+    font-size: large;
+}
+
+#rightnav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,9 +49,10 @@ html{
 
 
 #rightnav ul li {
-   
-    list-style-type: none;}
-    
+
+    list-style-type: none;
+}
+
 
 #rightnav ul li a {
     text-decoration: none;
@@ -58,7 +62,7 @@ html{
     margin-right: 10px;
     text-align: center;
     border-radius: 1px;
-    
+
 }
 
 /* #rightnav ul li a:hover {
@@ -68,7 +72,10 @@ html{
    
 } */
 
-#intro,#about,#experience,#contactme{
+#intro,
+#about,
+#experience,
+#contactme {
     display: flex;
     border: 2px solid rgba(0, 0, 0, 0.128);
     border-radius: 20px;
@@ -80,7 +87,8 @@ html{
     height: 70vh;
     width: 70vw;
 }
-#skills{
+
+#skills {
     display: flex;
     flex-direction: column;
     border: 2px solid rgba(0, 0, 0, 0.128);
@@ -91,125 +99,169 @@ html{
     height: 70vh;
     width: 70vw;
 }
-#sk{
+
+#sk {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 50px;
     align-items: center;
 }
-#intro{
+
+#intro {
     margin-top: 50px;
 }
-#leftintro{
+
+#leftintro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
 
-#rightintro{
- 
- justify-content: center;
- align-items: center; 
- 
+#rightintro {
+
+    justify-content: center;
+    align-items: center;
+
 
 }
-#rightintro img{
+
+#rightintro img {
     width: 100px;
-    
+
 }
-#intro:hover{
+
+#intro:hover {
     border: lightgreen solid 3px;
 }
-#about:hover{
+
+#about:hover {
     border: lightgreen solid 3px;
 }
-#experience:hover{
+
+#experience:hover {
     border: lightgreen solid 3px;
 }
-#skills:hover{
+
+#skills:hover {
     border: lightgreen solid 3px;
 }
-#contactme:hover{
+
+#contactme:hover {
     border: lightgreen solid 3px;
 }
-#about{
+
+#about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#about h1,#experience h1,#skills h1,#contactme h1{
+
+#about h1,
+#experience h1,
+#skills h1,
+#contactme h1 {
     font-size: larger;
     margin: 15px;
     border-bottom: skyblue solid;
     text-align: center;
 }
-#skills h1{
+
+#skills h1 {
     width: 70px;
     align-self: center;
 }
 
 
-#experience{
-   
+#experience {
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#experience li{
+
+#experience li {
     list-style-position: inside;
 }
 
-#html,#css,#vscode,#c,#js{width: 50px;
-text-align: center;
+#sk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#html,
+#css,
+#vscode,
+#c,
+#js,
+#java,
+#git,
+#github {
+    text-align: center;
+    width: 23%;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
 
-#contactme{
+#contactme {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#button{display: flex;
-   justify-content: space-between;
-   
+
+#button {
+    display: flex;
+    justify-content: space-between;
+
 }
-#reset{padding: 5px 10px;
+
+#reset {
+    padding: 5px 10px;
     background-color: palevioletred;
     border: 1px solid lightseagreen;
     border-radius: 5px;
-   
+
 }
-#submit{padding: 5px 10px;
+
+#submit {
+    padding: 5px 10px;
     background-color: lightseagreen;
     border: 1px solid palevioletred;
     border-radius: 5px;
 }
-.footer
- {  border-top: solid black 1px;
+
+.footer {
+    border-top: solid black 1px;
     background-color: palegoldenrod;
-    padding: 10px; 
+    padding: 10px;
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- }
- 
+}
 
-@media (max-width:500px){
-  *{
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #intro,#about,#experience,#skills,#contactme{
-    height: 50vh;
-    height: 50vh;
-  }
+
+@media (max-width:500px) {
+    * {
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #intro,
+    #about,
+    #experience,
+    #skills,
+    #contactme {
+        height: 50vh;
+        height: 50vh;
+    }
 }
